@@ -13,7 +13,6 @@
 }
 body{
     overflow-x: hidden;
-    overflow-y: scroll;
     
 }
 .landing{
@@ -21,7 +20,7 @@ body{
 }
 .landing h1{
     font-family: 'Teko', sans-serif;
-    font-size: 100px;
+    
     /* color: #52ceff; */
 }
 .FN{
@@ -31,7 +30,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translateY(-100%) translateX(-150%);
-    
+    font-size: 100px;
     animation: FNAni .8s cubic-bezier(1, 1.61, 0.66, 0.76);
 }
 .LN{
@@ -41,6 +40,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translateY(-10%) translateX(10%);
+    font-size: 100px;
     animation: LNAni .8s cubic-bezier(1, 1.61, 0.66, 0.76);
 }
 .LandingParalax{
@@ -83,6 +83,7 @@ body{
     
 }
 .Decor0{
+    font-size: 80px;
     position: absolute;
     top: 2%;
     left: 20%;
@@ -90,6 +91,7 @@ body{
     
 }
 .Decor1{
+    font-size: 80px;
     position: absolute;
     top: 75%;
     left: 75%;
@@ -97,6 +99,7 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 .Decor2{
+    font-size: 80px;
     position: absolute;
     top: 20%;
     left: 70%;
@@ -104,6 +107,7 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 .Decor3{
+    font-size: 80px;
     position: absolute;
     top: 80%;
     left: 35%;
@@ -111,6 +115,7 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 .Decor4{
+    font-size: 80px;
     position: absolute;
     top: 30%;
     left: 20%;
@@ -118,6 +123,7 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 .Decor5{
+    font-size: 80px;
     position: absolute;
     top: 50%;
     left: 70%;
@@ -131,7 +137,7 @@ body{
 .AboutMe{
     /* height: 100vh; */
     display: flex;
-    padding: 100px 20px 100px 20px;
+    padding: 150px 20px 150px 20px;
     /* padding-top: 100px; */
     
     background-color: #FFC300;
@@ -147,14 +153,13 @@ body{
 }
 .AboutMeText{
     width: 50%;
-    padding-right: 100px
+    padding-right: 20px
 }
 .AboutMeText H1{
     padding-bottom: 20px;
 }
 .AboutMeText p{
     font-weight: bold;
-    max-width: 500px;
     font-size: 20px;
     color: rgb(68, 68, 68);
 }
