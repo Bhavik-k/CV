@@ -10,12 +10,12 @@
     font-family: 'Georama', sans-serif;
     scroll-behavior: smooth;
 
-}
-body{
     overflow-x: hidden;
-    
 }
+/* body{
+} */
 .landing{
+    z-index: 5;
     height: 100vh;
 }
 .landing h1{
@@ -48,6 +48,12 @@ body{
     height: 100%;
 
     background-image: url('./img/dottex.png');
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
     background-attachment: fixed;
     background-position: center;
@@ -134,12 +140,14 @@ body{
 
 
 
+
+
 .AboutMe{
-    /* height: 100vh; */
+    box-shadow: #FFC300 0 -100px;
+
     display: flex;
     padding: 150px 20px 150px 20px;
-    /* padding-top: 100px; */
-    
+    z-index: 7;
     background-color: #FFC300;
 }
 
