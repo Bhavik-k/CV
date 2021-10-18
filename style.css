@@ -143,8 +143,6 @@
 
 
 .AboutMe{
-    box-shadow: #FFC300 0 -100px;
-
     display: flex;
     padding: 150px 20px 150px 20px;
     z-index: 7;
