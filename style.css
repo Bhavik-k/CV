@@ -45,7 +45,7 @@
 }
 .LandingParalax{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
     background-image: url('./img/dottex.png');
 
