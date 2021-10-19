@@ -44,16 +44,12 @@
     animation: LNAni .8s cubic-bezier(1, 1.61, 0.66, 0.76);
 }
 .LandingParalax{
-    width: 100%;
-    height: 100vh;
+    max-width: 100vw;
+    min-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
 
     background-image: url('./img/dottex.png');
-
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 
     background-attachment: fixed;
     background-position: center;
