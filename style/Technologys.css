@@ -1,0 +1,32 @@
+.tecs{
+    background-color: #FFC300;
+}
+.tecs h1{
+    margin-left:  2.5em;
+    /* border-bottom: 3px solid #52ceff; */
+    border-bottom: 3px solid #00b7ff;
+    padding-bottom: 6px;
+    width: fit-content;
+}
+
+.Technologys {
+    list-style: none;
+    padding-left:  5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    padding-bottom: 10em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    place-items: center;
+}
+
+
+.tecImage{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}

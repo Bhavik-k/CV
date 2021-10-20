@@ -1,0 +1,35 @@
+
+.AboutMe{
+    display: flex;
+    padding: 150px 20px 150px 20px;
+    z-index: 7;
+    background-color: #FFC300;
+}
+
+.AboutMeImage{
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.AboutMeImage img{
+    max-width: 90%;
+}
+
+.AboutMeText{
+    width: 50%;
+    padding-right: 20px
+}
+
+.AboutMeText H1{
+    border-bottom: 3px solid #00b7ff;
+    padding-bottom: 6px;
+    width: fit-content;
+}
+
+.AboutMeText p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    padding-top: 16px;
+}
